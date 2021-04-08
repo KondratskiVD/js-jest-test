@@ -1,0 +1,13 @@
+{
+  "name": "tesing",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "capitalize.js",
+  "scripts": {
+    "test": "node tests/capitalize.test.js",
+    "serve": "node src/capitalize.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
