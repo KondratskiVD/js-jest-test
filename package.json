@@ -4,10 +4,17 @@
   "description": "",
   "type": "module",
   "main": "capitalize.js",
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {}
+  },
   "scripts": {
-    "test": "node tests/capitalize.test.js",
-    "serve": "node src/capitalize.js"
+    "test": "npx -n '--experimental-vm-modules' jest",
+    "serve": "node src/index.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
 }
